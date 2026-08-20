@@ -53,7 +53,11 @@ taskkill /F /T /IM HPMSGSVC.exe 2> nul
 taskkill /F /T /IM HPQuickStart.exe 2> nul
 
 echo.
-set /p again="Zmáčkni klávesu 'z' pro zopakování, cokoli jiného pro ukončení. "
+set "again="
+set /p again="Press 'z' to repeat, anything else to exit. "
 echo.
-if %again%==z goto loop
-else goto:eof
+if "%again%"=="z" (
+    goto loop
+) else (
+    goto:eof
+)
