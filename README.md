@@ -17,4 +17,4 @@ Press `z` to scan and kill processes again, or any other key to exit.
 
 ## Screenshots
 
-![Script in action](./Screenshots/script_in_action.png)
+![Script in action](https://raw.githubusercontent.com/mk-forge/windows-process-cleaner/main/Screenshots/script_in_action.png)
