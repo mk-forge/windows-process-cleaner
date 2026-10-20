@@ -1,10 +1,16 @@
 # Windows Process Cleaner
 
+![Batch](https://img.shields.io/badge/Batch-4D4D4D)
+
 Batch script that kills unnecessary Windows processes to free up system resources.
 
-## How it works
+## Overview
 
-Only processes that were actually terminated get printed to the console. It's safe to run repeatedly, since everything restarts after a reboot anyway.
+Batch script that kills unnecessary Windows processes to free up system resources. Only processes that were actually terminated get printed to the console. It's safe to run repeatedly, since everything restarts after a reboot anyway.
+
+## Tech stack
+
+- **Language:** Batch
 
 ## Installation
 
@@ -18,3 +24,7 @@ Press `z` to scan and kill processes again, or any other key to exit.
 ## Screenshots
 
 ![Script in action](https://raw.githubusercontent.com/mk-forge/windows-process-cleaner/main/Screenshots/script_in_action.png)
+
+## License
+
+[MIT](LICENSE)
