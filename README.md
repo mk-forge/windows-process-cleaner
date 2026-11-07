@@ -15,7 +15,10 @@ Batch script that kills unnecessary Windows processes to free up system resource
 ## Installation
 
 1. Download the latest `windows-process-cleaner.bat` from [Releases](https://github.com/mk-forge/windows-process-cleaner/releases).
-2. Right-click it and choose **Run as administrator**. Without that, system processes won't terminate.
+2. Right-click it and choose **Run as administrator**.
+
+> [!IMPORTANT]
+> Without administrator privileges system processes won't terminate.
 
 ## Usage
 
